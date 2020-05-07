@@ -1,0 +1,57 @@
+/* ORDER_CALLBACK */
+div.order_callback { margin: 20px auto; display: table; cursor: default; border-radius: 10px; }
+
+div.order_callback ::-webkit-input-placeholder { font-family: Roboto, Tahoma, Verdana, Arial, sans-serif; font-size: 16px; color: #000; }
+div.order_callback ::-moz-placeholder { font-family: Roboto, Tahoma, Verdana, Arial, sans-serif; font-size: 16px; color: #000; }
+div.order_callback :-moz-placeholder { font-family: Roboto, Tahoma, Verdana, Arial, sans-serif; font-size: 16px; color: #000; }
+div.order_callback :-ms-input-placeholder { font-family: Roboto, Tahoma, Verdana, Arial, sans-serif; font-size: 16px; color: #000; }
+
+div.order_callback > div.content { background-color: #fff; display: table; width: 100% !important; height: 100%; position: relative; border-radius: 6px; box-sizing: border-box; padding: 20px 39px 15px; }
+
+div.order_callback > div.content > div.close { top: 16px; right: 36px; position: absolute; font-size: 32px; color: #000; cursor: pointer; }
+
+div.order_callback > div.content > div.title { color: #000; font-size: 26px; text-transform: uppercase; font-family: Roboto, Tahoma, Verdana, Arial, sans-serif; text-transform: uppercase; }
+div.order_callback > div.content > div.close:hover { color: #000; }
+
+div.order_callback > div.content > div.content { display: table; width: 100%; box-sizing: border-box; margin: 25px 0px 16px 0px; font-size: 14px; color: #000; font-family: Roboto, Tahoma, Verdana, Arial, sans-serif; }
+
+/* ФОРМА ОБРАТНОЙ СВЯЗИ */
+div.order_callback { box-sizing: border-box; }
+
+div.order_callback * { box-sizing: border-box; }
+
+div.order_callback > div.content > div.title { font-size: 24px; }
+
+div.order_callback > div.content > div.content div.row { margin-bottom: 20px; margin-left: 0px; margin-right: 0px; }
+div.order_callback > div.content > div.content div.row:last-child { margin-bottom: 0px; }
+
+div.order_callback > div.content > div.content div.row.policy { text-align: center; }
+div.order_callback > div.content > div.content div.row.policy > a { text-align: center; font-weight: bolder; }
+
+div.order_callback > div.content > div.content div.row > input { width: 100%; padding: 10px 15px; font-size: 15px; }
+div.order_callback > div.content > div.content div.row > textarea { width: 100%; padding: 10px 15px; min-height: 60px; font-size: 15px; resize: vertical; }
+div.order_callback > div.content > div.content div.row > select { width: 100%; padding: 10px 15px; font-size: 15px; }
+
+div.order_callback > div.content > div.content div.row > input[type="file"] { padding: 0px; }
+
+div.order_callback > div.content > div.content div.row > button { display: table; margin: 0px auto; background-color: #282828; color: #fff; border-radius: 3px; border: 0px; padding: 13px 18px; outline: none; cursor: pointer; text-transform: uppercase; }
+div.order_callback > div.content > div.content div.row > button:active { background-color: #000; padding: 15px 18px 11px; }
+div.order_callback > div.content > div.content div.row > button:hover { background-color: #505050; }
+
+div.order_callback > div.content > div.content div.row .ruplex_error_field { top: 0px; }
+
+div.order_callback > div.content > div.content div.row .files { display: table; width: 100%; }
+
+div.order_callback > div.content > div.content div.row .files div { display: table-cell; vertical-align: top; }
+
+div.order_callback > div.content > div.content div.row .files .list_input { width: 268px; }
+
+div.order_callback > div.content > div.content div.row .files .list_input input { margin-bottom: 6px; }
+div.order_callback > div.content > div.content div.row .files .list_input input:last-child { margin-bottom: 0px; }
+
+div.order_callback > div.content > div.content div.row.rate > div { float: left; display: table; }
+
+div.order_callback > div.content > div.content div.row.rate > div:first-child { font-weight: bolder; }
+div.order_callback > div.content > div.content div.row.rate > div:last-child { padding-left: 15px; }
+
+div.order_callback > div.content > div.content div.row.rate select { cursor: pointer; padding: 5px; margin-top: -5px; }
